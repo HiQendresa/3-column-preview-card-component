@@ -49,4 +49,60 @@ img,
 picture {
   width: 100%;
   display: block;
+}
+
+main {
+  width: 920px;
+  height: 500px;
+  margin: 0 auto;
+}
+main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  background: #E28625;
+}
+main .container .card .icon {
+  width: 64px;
+  height: 40px;
+}
+main .container .card .title {
+  color: #F2F2F2;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+main .container .card .description {
+  width: 212px;
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.75;
+}
+main .container .card button {
+  width: 146px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background: #F2F2F2;
+  color: #E28625;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */
