@@ -114,8 +114,16 @@
                 line-height: 25px;
             }
 
-            border-radius: 8px;
+            border-radius: 0px 8px 8px 0px;
             background: #E28625;
         }
+        .orange-card {
+          background-color: #E28625;
+        }
+        .leightGreen-card {
+          background: #006971;
+        }
+
+        
     }
   }
