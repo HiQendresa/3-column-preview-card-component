@@ -1,14 +1,6 @@
 :root {
-    --bright-orange:31, 77%, 52%;
-    --dark-cyan:184, 100%, 22%;
-    --very-dark-cyan:179, 100%, 13%;
-    
-    
-    --transparent-white: hsla(0, 0%, 100%, 0.75);
-    --very-light-gray: 0, 0%, 95%;
-
-
-    --font-family-ibm: "IBM Plex Sans", sans-serif;
+    --font-family-bigi: 'Big Shoulders Display', sans-serif;
+    --font-family-deca: 'Lexend Deca', sans-serif;
   }
   
   *,
@@ -92,7 +84,7 @@
 
             .title {
                 color: #F2F2F2;
-                font-family: Big Shoulders Display;
+                font-family: var(--font-family-bigi);
                 font-size: 40px;
                 font-style: normal;
                 font-weight: 700;
@@ -102,7 +94,7 @@
             .description {
                 width: 212px;
                 color: #FFF;
-                font-family: Lexend Deca;
+                font-family: var(--font-family-deca);
                 font-size: 15px;
                 font-style: normal;
                 font-weight: 400;
@@ -120,7 +112,7 @@
                 border-radius: 25px;
                 background: #F2F2F2;
 
-                font-family: Lexend Deca;
+                font-family: var(--font-family-deca);
                 font-size: 15px;
                 font-style: normal;
                 font-weight: 400;
