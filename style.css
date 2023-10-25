@@ -67,8 +67,6 @@ main .container .card {
   align-items: flex-start;
   gap: 20px;
   padding: 30px;
-  border-radius: 0px 8px 8px 0px;
-  background: #E28625;
 }
 main .container .card .icon {
   width: 64px;
@@ -107,8 +105,13 @@ main .container .card button {
   line-height: 25px;
 }
 main .container .orange-card {
-  background-color: #E28625;
+  border-radius: 8px 8px 0px 0px;
+  background: #E28625;
 }
-main .container .leightGreen-card {
+main .container .lightgreen-card {
   background: #006971;
+}
+main .container .green-card {
+  border-radius: 0px 8px 8px 0px;
+  background: #004140;
 }/*# sourceMappingURL=style.css.map */
